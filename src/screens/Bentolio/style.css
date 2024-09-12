@@ -1,0 +1,404 @@
+.bentolio {
+  background-color: #eddbc2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bentolio .div {
+  background-color: var(--collection-1-fondo);
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.bentolio .SOCIALS {
+  background-color: var(--collection-1-texto);
+  border-radius: var(--collection-1-rounded);
+  height: 101px;
+  left: 968px;
+  overflow: hidden;
+  position: absolute;
+  top: 899px;
+  width: 448px;
+}
+
+.bentolio .LINKS {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 57px;
+  position: relative;
+  top: 38px;
+  width: 334px;
+}
+
+.bentolio .text-wrapper {
+  color: var(--collection-1-primario);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.bentolio .text-wrapper-2 {
+  color: var(--collection-1-primario);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.bentolio .overlap {
+  height: 854px;
+  left: 24px;
+  position: absolute;
+  top: 146px;
+  width: 920px;
+}
+
+.bentolio .overlap-group {
+  height: 854px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 920px;
+}
+
+.bentolio .CONTACT {
+  background-color: var(--collection-1-secundario);
+  border-radius: var(--collection-1-rounded);
+  height: 351px;
+  left: 472px;
+  overflow: hidden;
+  position: absolute;
+  top: 503px;
+  width: 448px;
+}
+
+.bentolio .text-wrapper-3 {
+  color: var(--collection-1-fondo);
+  font-family: "Inter", Helvetica;
+  font-size: 55px;
+  font-weight: 500;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 258px;
+  white-space: nowrap;
+}
+
+.bentolio .TOP-BAR {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  left: 24px;
+  position: absolute;
+  top: 30px;
+  width: 400px;
+}
+
+.bentolio .have-some-questions {
+  color: var(--collection-1-fondo);
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.bentolio .ARROW {
+  height: 38px;
+  position: relative;
+  width: 38px;
+}
+
+.bentolio .overlap-group-2 {
+  height: 782px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 565px;
+}
+
+.bentolio .ABOUT {
+  background-color: var(--collection-1-fondo);
+  border-radius: var(--collection-1-rounded);
+  height: 351px;
+  left: 6px;
+  overflow: hidden;
+  position: absolute;
+  top: 431px;
+  width: 448px;
+}
+
+.bentolio .p {
+  color: var(--collection-1-texto);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 154px;
+  width: 296px;
+}
+
+.bentolio .SLOGAN-INTRO {
+  height: 479px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 565px;
+}
+
+.bentolio .estudiante-de {
+  color: #391212;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  height: 153px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 160px;
+  width: 504px;
+}
+
+.bentolio .span {
+  font-weight: 500;
+}
+
+.bentolio .text-wrapper-4 {
+  font-weight: 300;
+}
+
+.bentolio .PORTRAIT {
+  background-color: #ffffff;
+  border-radius: var(--collection-1-rounded);
+  height: 476px;
+  left: 590px;
+  overflow: hidden;
+  position: absolute;
+  top: 3px;
+  width: 330px;
+}
+
+.bentolio .image {
+  height: 476px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 330px;
+}
+
+.bentolio .WORK {
+  background-color: var(--collection-1-primario);
+  border-radius: var(--collection-1-rounded);
+  height: 726px;
+  left: 973px;
+  overflow: hidden;
+  position: absolute;
+  top: 149px;
+  width: 447px;
+}
+
+.bentolio .ITEM {
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 631px;
+  width: 399px;
+}
+
+.bentolio .BORDER {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+  width: 399px;
+}
+
+.bentolio .BORDER-wrapper {
+  height: 1px;
+  left: 14px;
+  position: absolute;
+  top: 316px;
+  width: 399px;
+}
+
+.bentolio .text-wrapper-5 {
+  color: var(--collection-1-secundario);
+  font-family: "Inter", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 365px;
+}
+
+.bentolio .img-wrapper {
+  height: 1px;
+  left: 24px;
+  position: absolute;
+  top: 75px;
+  width: 399px;
+}
+
+.bentolio .img {
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: -5px;
+  width: 399px;
+}
+
+.bentolio .image-2 {
+  height: 191px;
+  left: 31px;
+  object-fit: cover;
+  position: absolute;
+  top: 100px;
+  width: 183px;
+}
+
+.bentolio .group {
+  height: 111px;
+  left: 223px;
+  position: absolute;
+  top: 100px;
+  width: 186px;
+}
+
+.bentolio .image-3 {
+  height: 79px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 32px;
+  width: 186px;
+}
+
+.bentolio .image-4 {
+  height: 32px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 186px;
+}
+
+.bentolio .preparar-first {
+  height: 161px;
+  left: 82px;
+  object-fit: cover;
+  position: absolute;
+  top: 322px;
+  width: 263px;
+}
+
+.bentolio .DELF {
+  height: 116px;
+  left: 82px;
+  object-fit: cover;
+  position: absolute;
+  top: 493px;
+  width: 264px;
+}
+
+.bentolio .HEADER {
+  background-color: var(--collection-1-primario);
+  border-radius: var(--collection-1-rounded);
+  height: 101px;
+  left: 24px;
+  overflow: hidden;
+  position: absolute;
+  top: 24px;
+  width: 1392px;
+}
+
+.bentolio .NAV {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  left: 24px;
+  position: relative;
+  top: 39px;
+  width: 1343px;
+}
+
+.bentolio .ana-espeso {
+  color: #391212;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.bentolio .text-wrapper-6 {
+  font-weight: 700;
+}
+
+.bentolio .PAGE-LINKS {
+  height: 12px;
+  position: relative;
+  width: 303px;
+}
+
+.bentolio .frame {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 303px;
+}
+
+.bentolio .text-wrapper-7 {
+  color: #391212;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.bentolio .text-wrapper-8 {
+  color: var(--collection-1-texto);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

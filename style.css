@@ -1,5 +1,5 @@
 .bentolio {
-  background-color: #eddbc2;
+  background-color: #f9efe1;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .bentolio .div {
-  background-color: var(--collection-1-fondo);
+  background-color: var(--collection-1-colorfondo-plano);
   width: 1440px;
   height: 1024px;
   position: relative;
@@ -59,28 +59,12 @@
   white-space: nowrap;
 }
 
-.bentolio .overlap {
-  position: absolute;
-  width: 920px;
-  height: 854px;
-  top: 146px;
-  left: 24px;
-}
-
-.bentolio .overlap-group {
-  position: absolute;
-  width: 920px;
-  height: 854px;
-  top: 0;
-  left: 0;
-}
-
 .bentolio .CONTACT {
   position: absolute;
   width: 448px;
   height: 351px;
-  top: 503px;
-  left: 472px;
+  top: 649px;
+  left: 496px;
   background-color: var(--collection-1-secundario);
   border-radius: var(--collection-1-rounded);
   overflow: hidden;
@@ -126,20 +110,12 @@
   height: 38px;
 }
 
-.bentolio .overlap-group-2 {
-  position: absolute;
-  width: 565px;
-  height: 782px;
-  top: 0;
-  left: 0;
-}
-
 .bentolio .ABOUT {
   position: absolute;
   width: 448px;
   height: 351px;
-  top: 431px;
-  left: 6px;
+  top: 642px;
+  left: 30px;
   background-color: var(--collection-1-fondo);
   border-radius: var(--collection-1-rounded);
   overflow: hidden;
@@ -147,65 +123,15 @@
 
 .bentolio .p {
   position: absolute;
-  width: 296px;
-  top: 154px;
-  left: 24px;
+  width: 398px;
+  top: 25px;
+  left: 25px;
   font-family: "Inter", Helvetica;
   font-weight: 300;
   color: var(--collection-1-texto);
-  font-size: 20px;
+  font-size: 32px;
   letter-spacing: 0;
-  line-height: 25px;
-}
-
-.bentolio .SLOGAN-INTRO {
-  position: absolute;
-  width: 565px;
-  height: 479px;
-  top: 0;
-  left: 0;
-}
-
-.bentolio .estudiante-de {
-  position: absolute;
-  width: 504px;
-  height: 153px;
-  top: 160px;
-  left: 39px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #391212;
-  font-size: 50px;
-  letter-spacing: 0;
-  line-height: 50px;
-}
-
-.bentolio .span {
-  font-weight: 500;
-}
-
-.bentolio .text-wrapper-4 {
-  font-weight: 300;
-}
-
-.bentolio .PORTRAIT {
-  position: absolute;
-  width: 330px;
-  height: 476px;
-  top: 3px;
-  left: 590px;
-  background-color: #ffffff;
-  border-radius: var(--collection-1-rounded);
-  overflow: hidden;
-}
-
-.bentolio .image {
-  width: 330px;
-  height: 476px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
+  line-height: 38px;
 }
 
 .bentolio .WORK {
@@ -243,7 +169,7 @@
   height: 1px;
 }
 
-.bentolio .text-wrapper-5 {
+.bentolio .text-wrapper-4 {
   position: absolute;
   width: 365px;
   top: 26px;
@@ -272,7 +198,7 @@
   left: 0;
 }
 
-.bentolio .image-2 {
+.bentolio .image {
   width: 183px;
   height: 191px;
   top: 100px;
@@ -289,7 +215,7 @@
   left: 223px;
 }
 
-.bentolio .image-3 {
+.bentolio .image-2 {
   width: 186px;
   height: 79px;
   top: 32px;
@@ -298,7 +224,7 @@
   object-fit: cover;
 }
 
-.bentolio .image-4 {
+.bentolio .image-3 {
   width: 186px;
   height: 32px;
   top: 0;
@@ -325,6 +251,58 @@
   object-fit: cover;
 }
 
+.bentolio .PORTRAIT {
+  position: absolute;
+  width: 330px;
+  height: 476px;
+  top: 149px;
+  left: 614px;
+  background-color: #ffffff;
+  border-radius: var(--collection-1-rounded);
+  overflow: hidden;
+}
+
+.bentolio .image-4 {
+  width: 330px;
+  height: 476px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.bentolio .overlap-group {
+  position: absolute;
+  width: 565px;
+  height: 479px;
+  top: 146px;
+  left: 24px;
+  background-image: url(./img/slogan-intro.svg);
+  background-size: 100% 100%;
+}
+
+.bentolio .estudiante-de {
+  position: absolute;
+  width: 504px;
+  height: 153px;
+  top: 160px;
+  left: 39px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-primario);
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.bentolio .span {
+  font-weight: 500;
+}
+
+.bentolio .text-wrapper-5 {
+  font-weight: 300;
+}
+
 .bentolio .HEADER {
   position: absolute;
   width: 1392px;
@@ -339,21 +317,20 @@
 .bentolio .NAV {
   display: flex;
   width: 1343px;
+  height: 101px;
   align-items: center;
   justify-content: space-between;
   position: relative;
-  top: 39px;
   left: 24px;
 }
 
-.bentolio .ana-espeso {
+.bentolio .ana-m-espeso-n-ez {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #391212;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
@@ -395,7 +372,7 @@
   width: fit-content;
   margin-top: -1px;
   font-family: "Inter", Helvetica;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--collection-1-texto);
   font-size: 16px;
   letter-spacing: 0;
@@ -404,394 +381,205 @@
 }
 /* Global styles */
 
-
 .bentolio {
-
   background-color: #eddbc2;
-
   display: flex;
-
   flex-direction: row;
-
   justify-content: center;
-
   width: 100%;
-
 }
-
 
 /* Large screens (max-width: 1200px) */
 
-
 @media (max-width: 1200px) {
-
   .bentolio .SOCIALS {
-
     width: 350px;
-
     height: 80px;
-
     top: 800px;
-
     left: 850px;
-
   }
-
   .bentolio .LINKS {
-
     width: 250px;
-
     top: 30px;
-
     left: 40px;
-
   }
-
   .bentolio .text-wrapper {
-
     font-size: 18px;
-
   }
-
   .bentolio .overlap {
-
     width: 800px;
-
     height: 700px;
-
     top: 120px;
-
     left: 20px;
-
   }
-
   .bentolio .CONTACT {
-
     width: 350px;
-
     height: 250px;
-
     top: 450px;
-
     left: 420px;
-
   }
-
   .bentolio .TOP-BAR {
-
     width: 300px;
-
     top: 20px;
-
     left: 20px;
-
   }
-
   .bentolio .ARROW {
-
     width: 30px;
-
     height: 30px;
-
   }
-
 }
-
 
 /* Medium screens (max-width: 992px) */
 
-
 @media (max-width: 992px) {
-
   .bentolio .SOCIALS {
-
     width: 250px;
-
     height: 60px;
-
     top: 700px;
-
     left: 750px;
-
   }
-
   .bentolio .LINKS {
-
     width: 200px;
-
     top: 20px;
-
     left: 30px;
-
   }
-
   .bentolio .text-wrapper {
-
     font-size: 16px;
-
   }
-
   .bentolio .overlap {
-
     width: 600px;
-
     height: 500px;
-
     top: 100px;
-
     left: 15px;
-
   }
-
   .bentolio .CONTACT {
-
     width: 250px;
-
     height: 200px;
-
     top: 400px;
-
     left: 380px;
-
   }
-
   .bentolio .TOP-BAR {
-
     width: 250px;
-
     top: 15px;
-
     left: 15px;
-
   }
-
   .bentolio .ARROW {
-
     width: 25px;
-
     height: 25px;
-
   }
-
 }
-
 
 /* Small screens (max-width: 768px) */
 
-
 @media (max-width: 768px) {
-
   .bentolio .SOCIALS {
-
     width: 200px;
-
     height: 40px;
-
     top: 600px;
-
     left: 650px;
-
   }
-
   .bentolio .LINKS {
-
     width: 150px;
-
     top: 15px;
-
     left: 20px;
-
   }
-
   .bentolio .text-wrapper {
-
     font-size: 14px;
-
   }
-
   .bentolio .overlap {
-
     width: 400px;
-
     height: 300px;
-
     top: 80px;
-
     left: 10px;
-
   }
-
   .bentolio .CONTACT {
-
     width: 200px;
-
     height: 150px;
-
     top: 350px;
-
     left: 330px;
-
   }
-
   .bentolio .TOP-BAR {
-
     width: 200px;
-
     top: 10px;
-
     left: 10px;
-
   }
-
   .bentolio .ARROW {
-
     width: 20px;
-
     height: 20px;
-
   }
-
 }
-
 
 /* Extra small screens (max-width: 480px) */
 
-
 @media (max-width: 480px) {
-
   .bentolio .SOCIALS {
-
     width: 150px;
-
     height: 30px;
-
     top: 500px;
-
     left: 550px;
-
   }
-
   .bentolio .LINKS {
-
     width: 100px;
-
     top: 10px;
-
     left: 15px;
-
   }
-
   .bentolio .text-wrapper {
-
     font-size: 12px;
-
   }
-
   .bentolio .overlap {
-
     width: 300px;
-
     height: 200px;
-
     top: 60px;
-
     left: 5px;
-
   }
-
   .bentolio .CONTACT {
-
     width: 150px;
-
     height: 100px;
-
     top: 300px;
-
     left: 280px;
-
   }
-
   .bentolio .TOP-BAR {
-
     width: 150px;
-
     top: 5px;
-
     left: 5px;
-
   }
-
   .bentolio .ARROW {
-
     width: 15px;
-
     height: 15px;
-
   }
-
 }
 :root {
-
   --collection-1-fondo: #eddbc2;
-
   --collection-1-texto: #391212;
-
   --collection-1-primario: #333;
-
   --collection-1-secundario: #666;
-
   --collection-1-rounded: 10px;
-
 }
-
 
 .bentolio {
-
   background-color: var(--collection-1-fondo);
-
   display: flex;
-
   flex-direction: row;
-
   justify-content: center;
-
   width: 100%;
-
 }
-
 
 .bentolio .SOCIALS {
-
   position: absolute;
-
   width: 448px;
-
   height: 101px;
-
   top: 899px;
-
   left: 968px;
-
   background-color: var(--collection-1-texto);
-
   border-radius: var(--collection-1-rounded);
-
   overflow: hidden;
-
 }
 
-
 .bentolio .LINKS {
-
   display: flex;
-
   width: 334px;
-
   align-items: center;
-
   justify-content: space-between;
-
   position: relative;
-
   top: 38px;
 }
